@@ -57,8 +57,8 @@
     <ApplicationIcon>refresh.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EAGetMail45, Version=4.6.5.1, Culture=neutral, PublicKeyToken=e10a0812eb29cf94, processorArchitecture=MSIL">
-      <HintPath>..\packages\EAGetMail.4.6.5.1\lib\net45\EAGetMail45.dll</HintPath>
+    <Reference Include="EAGetMail, Version=4.6.7.2, Culture=neutral, PublicKeyToken=e10a0812eb29cf94, processorArchitecture=MSIL">
+      <HintPath>..\packages\EAGetMail.4.6.7.2\lib\net45\EAGetMail.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>

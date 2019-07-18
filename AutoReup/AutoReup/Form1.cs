@@ -110,7 +110,7 @@ namespace AutoReup
                     this.Text += " Kawaii Shop";
                     this.Location = new System.Drawing.Point(100, 50);
                     txtRentAccID.Text = "0976746715";
-                    txtRentAccPass.Text = "hoangduatcute";
+                    txtRentAccPass.Text = "fatboy117";
                     txtEmailID.Text = "dongtien0711@gmail.com";
                     txtEmailPass.Text = "tranluuD0ngTien27";
                     infoform.Location = new System.Drawing.Point(Screen.PrimaryScreen.Bounds.Width - 246, 25);
