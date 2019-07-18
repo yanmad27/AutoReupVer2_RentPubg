@@ -1,0 +1,358 @@
+﻿namespace AutoBlock
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.cmdTest = new System.Windows.Forms.Button();
+            this.chkShowBrowser = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtRentAccPass = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtRentAccID = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtMinPrice = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtVnd = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtRent = new System.Windows.Forms.TextBox();
+            this.txtBan = new System.Windows.Forms.TextBox();
+            this.cmdStop = new System.Windows.Forms.Button();
+            this.txtFirstID = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.chkUpdatePrice = new System.Windows.Forms.CheckBox();
+            this.lblCurrentPrice = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtBlock = new System.Windows.Forms.TextBox();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // cmdTest
+            // 
+            this.cmdTest.Location = new System.Drawing.Point(181, 165);
+            this.cmdTest.Name = "cmdTest";
+            this.cmdTest.Size = new System.Drawing.Size(75, 29);
+            this.cmdTest.TabIndex = 0;
+            this.cmdTest.Text = "START";
+            this.cmdTest.UseVisualStyleBackColor = true;
+            this.cmdTest.Click += new System.EventHandler(this.cmdTest_Click);
+            // 
+            // chkShowBrowser
+            // 
+            this.chkShowBrowser.AutoSize = true;
+            this.chkShowBrowser.Location = new System.Drawing.Point(12, 96);
+            this.chkShowBrowser.Name = "chkShowBrowser";
+            this.chkShowBrowser.Size = new System.Drawing.Size(114, 17);
+            this.chkShowBrowser.TabIndex = 1;
+            this.chkShowBrowser.Text = "Hiển thị trình duyệt";
+            this.chkShowBrowser.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtRentAccPass);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.txtRentAccID);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(163, 76);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "RentAcc";
+            // 
+            // txtRentAccPass
+            // 
+            this.txtRentAccPass.Location = new System.Drawing.Point(51, 45);
+            this.txtRentAccPass.Name = "txtRentAccPass";
+            this.txtRentAccPass.Size = new System.Drawing.Size(100, 20);
+            this.txtRentAccPass.TabIndex = 3;
+            this.txtRentAccPass.UseSystemPasswordChar = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(10, 48);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(30, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Pass";
+            // 
+            // txtRentAccID
+            // 
+            this.txtRentAccID.Location = new System.Drawing.Point(51, 19);
+            this.txtRentAccID.Name = "txtRentAccID";
+            this.txtRentAccID.Size = new System.Drawing.Size(100, 20);
+            this.txtRentAccID.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(10, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ID";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtBlock);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.txtMinPrice);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.txtVnd);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.txtRent);
+            this.groupBox2.Controls.Add(this.txtBan);
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.groupBox2.Location = new System.Drawing.Point(181, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(163, 147);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Yêu cầu";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label7.Location = new System.Drawing.Point(6, 125);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Giá min";
+            // 
+            // txtMinPrice
+            // 
+            this.txtMinPrice.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtMinPrice.Location = new System.Drawing.Point(50, 121);
+            this.txtMinPrice.Name = "txtMinPrice";
+            this.txtMinPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtMinPrice.Size = new System.Drawing.Size(100, 20);
+            this.txtMinPrice.TabIndex = 8;
+            this.txtMinPrice.Text = "2000";
+            this.txtMinPrice.Enter += new System.EventHandler(this.txtMinPrice_Enter);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(6, 99);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(28, 13);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Tiêu";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label3.Location = new System.Drawing.Point(6, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Thuê";
+            // 
+            // txtVnd
+            // 
+            this.txtVnd.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtVnd.Location = new System.Drawing.Point(50, 95);
+            this.txtVnd.Name = "txtVnd";
+            this.txtVnd.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtVnd.Size = new System.Drawing.Size(100, 20);
+            this.txtVnd.TabIndex = 6;
+            this.txtVnd.Text = "0";
+            this.txtVnd.Enter += new System.EventHandler(this.txtVnd_Enter);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label4.Location = new System.Drawing.Point(6, 48);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Ban";
+            // 
+            // txtRent
+            // 
+            this.txtRent.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtRent.Location = new System.Drawing.Point(50, 70);
+            this.txtRent.Name = "txtRent";
+            this.txtRent.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtRent.Size = new System.Drawing.Size(100, 20);
+            this.txtRent.TabIndex = 5;
+            this.txtRent.Text = "10";
+            this.txtRent.Enter += new System.EventHandler(this.txtRent_Enter);
+            // 
+            // txtBan
+            // 
+            this.txtBan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtBan.Location = new System.Drawing.Point(50, 45);
+            this.txtBan.Name = "txtBan";
+            this.txtBan.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBan.Size = new System.Drawing.Size(100, 20);
+            this.txtBan.TabIndex = 4;
+            this.txtBan.Text = "0";
+            this.txtBan.Enter += new System.EventHandler(this.txtBan_Enter);
+            // 
+            // cmdStop
+            // 
+            this.cmdStop.Location = new System.Drawing.Point(269, 165);
+            this.cmdStop.Name = "cmdStop";
+            this.cmdStop.Size = new System.Drawing.Size(75, 29);
+            this.cmdStop.TabIndex = 5;
+            this.cmdStop.Text = "STOP";
+            this.cmdStop.UseVisualStyleBackColor = true;
+            this.cmdStop.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtFirstID
+            // 
+            this.txtFirstID.Location = new System.Drawing.Point(55, 250);
+            this.txtFirstID.Name = "txtFirstID";
+            this.txtFirstID.Size = new System.Drawing.Size(100, 20);
+            this.txtFirstID.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label6.Location = new System.Drawing.Point(9, 255);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(40, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "ID đầu";
+            // 
+            // chkUpdatePrice
+            // 
+            this.chkUpdatePrice.AutoSize = true;
+            this.chkUpdatePrice.Checked = true;
+            this.chkUpdatePrice.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkUpdatePrice.Location = new System.Drawing.Point(12, 121);
+            this.chkUpdatePrice.Name = "chkUpdatePrice";
+            this.chkUpdatePrice.Size = new System.Drawing.Size(129, 17);
+            this.chkUpdatePrice.TabIndex = 9;
+            this.chkUpdatePrice.Text = "Tự động cập nhật giá";
+            this.chkUpdatePrice.UseVisualStyleBackColor = true;
+            // 
+            // lblCurrentPrice
+            // 
+            this.lblCurrentPrice.AutoSize = true;
+            this.lblCurrentPrice.Location = new System.Drawing.Point(9, 141);
+            this.lblCurrentPrice.Name = "lblCurrentPrice";
+            this.lblCurrentPrice.Size = new System.Drawing.Size(66, 13);
+            this.lblCurrentPrice.TabIndex = 10;
+            this.lblCurrentPrice.Text = "Giá hiện tại: ";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label8.Location = new System.Drawing.Point(6, 22);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(34, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Block";
+            // 
+            // txtBlock
+            // 
+            this.txtBlock.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtBlock.Location = new System.Drawing.Point(50, 19);
+            this.txtBlock.Name = "txtBlock";
+            this.txtBlock.Size = new System.Drawing.Size(100, 20);
+            this.txtBlock.TabIndex = 11;
+            this.txtBlock.Text = "15";
+            this.txtBlock.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtBlock.Enter += new System.EventHandler(this.txtBlock_Enter);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(353, 201);
+            this.Controls.Add(this.lblCurrentPrice);
+            this.Controls.Add(this.chkUpdatePrice);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.cmdTest);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.txtFirstID);
+            this.Controls.Add(this.cmdStop);
+            this.Controls.Add(this.chkShowBrowser);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Auto Block";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button cmdTest;
+        private System.Windows.Forms.CheckBox chkShowBrowser;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtRentAccPass;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtRentAccID;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtVnd;
+        private System.Windows.Forms.TextBox txtRent;
+        private System.Windows.Forms.TextBox txtBan;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button cmdStop;
+        private System.Windows.Forms.TextBox txtFirstID;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox chkUpdatePrice;
+        private System.Windows.Forms.Label lblCurrentPrice;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtMinPrice;
+        private System.Windows.Forms.TextBox txtBlock;
+        private System.Windows.Forms.Label label8;
+    }
+}
+
