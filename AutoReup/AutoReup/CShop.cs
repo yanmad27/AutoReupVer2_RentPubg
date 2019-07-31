@@ -965,7 +965,8 @@ namespace AutoReup
                 rentpubg.Navigate();
                 currentPrice = rentpubg.FindElement(By.XPath("/html/body/div[3]/div/div[1]/div[2]/div[" + positionOfPrice + "]/div/div/div/select/option[1]")).Text;
                 currentPrice = currentPrice.Remove(1, 1);//remove "."
-                currentPrice = currentPrice.Substring(0, 4); //lay ra price
+                currentPrice = currentPrice.Substring(0, 4); //lay ra price hien tai
+                currentPrice = (int.Parse(currentPrice) + 500).ToString(); //+500vnd de tang gia
 
                 rentpubg.Url = "http://rentpubg.com/shop/sua-tai-khoan/" + account.idAccount;
                 rentpubg.Navigate();
